@@ -1,0 +1,1243 @@
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+Started GET "/blog_posts" for 127.0.0.1 at 2019-07-19 18:20:40 +0530
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BlogPostsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "blog_posts"[0m
+  [1m[36mBlogPost Load (0.1ms)[0m  [1m[34mSELECT "blog_posts".* FROM "blog_posts" ORDER BY "blog_posts"."id" DESC[0m
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 43ms (Views: 4.0ms | ActiveRecord: 1.1ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+Started GET "/blog_posts" for 127.0.0.1 at 2019-07-19 18:22:56 +0530
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BlogPostsController#index as HTML
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "blog_posts"[0m
+  [1m[36mBlogPost Load (0.3ms)[0m  [1m[34mSELECT "blog_posts".* FROM "blog_posts" ORDER BY "blog_posts"."id" DESC[0m
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 64ms (Views: 3.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2019-07-19 18:22:56 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/bittern02/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/bittern02/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/bittern02/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/blog_posts" for 127.0.0.1 at 2019-07-19 18:22:58 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "blog_posts"[0m
+  [1m[36mBlogPost Load (0.2ms)[0m  [1m[34mSELECT "blog_posts".* FROM "blog_posts" ORDER BY "blog_posts"."id" DESC[0m
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 28ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blog_posts" for 127.0.0.1 at 2019-07-19 18:23:00 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "blog_posts"[0m
+  [1m[36mBlogPost Load (0.2ms)[0m  [1m[34mSELECT "blog_posts".* FROM "blog_posts" ORDER BY "blog_posts"."id" DESC[0m
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 24ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blog_posts" for 127.0.0.1 at 2019-07-19 18:23:08 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "blog_posts"[0m
+  [1m[36mBlogPost Load (0.2ms)[0m  [1m[34mSELECT "blog_posts".* FROM "blog_posts" ORDER BY "blog_posts"."id" DESC[0m
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 14ms (Views: 0.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-19 18:28:15 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/bittern02/.rvm/gems/ruby-2.4.0/gems/railties-5.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/bittern02/.rvm/gems/ruby-2.4.0/gems/railties-5.1.0/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 36ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2019-07-19 18:28:15 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/bittern02/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/bittern02/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/bittern02/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/blog_pots" for 127.0.0.1 at 2019-07-19 18:28:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/blog_pots"):
+  
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/bittern02/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/bittern02/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/bittern02/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/blog_posts" for 127.0.0.1 at 2019-07-19 18:28:30 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "blog_posts"[0m
+  [1m[36mBlogPost Load (0.1ms)[0m  [1m[34mSELECT "blog_posts".* FROM "blog_posts" ORDER BY "blog_posts"."id" DESC[0m
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 18ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+Started GET "/blog_posts/new" for 127.0.0.1 at 2019-07-19 18:31:06 +0530
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BlogPostsController#new as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 59ms (Views: 2.8ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2019-07-19 18:31:17 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kfcddU9BOMypsAfK/oIcNAxISNh1+mKWoMFvaJBIVvC5/ZJug9HaZK1w9rV0dmLHKJdq68jyCmO48EymHrrYeQ==", "blog_post"=>{"title"=>"hello hiiiii", "body"=>"byeeeeeeeeeee"}, "commit"=>"Create Post"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.3ms)[0m  [1m[32mINSERT INTO "blog_posts" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "hello hiiiii"], ["body", "byeeeeeeeeeee"], ["created_at", "2019-07-19 13:01:17.795523"], ["updated_at", "2019-07-19 13:01:17.795523"]]
+  [1m[35m (123.4ms)[0m  [1m[36mcommit transaction[0m
+New blog post hello hiiiii.
+Redirected to http://localhost:3000/blog_posts
+Completed 302 Found in 133ms (ActiveRecord: 125.8ms)
+
+
+Started GET "/blog_posts" for 127.0.0.1 at 2019-07-19 18:31:17 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "blog_posts"[0m
+  [1m[36mBlogPost Load (0.2ms)[0m  [1m[34mSELECT "blog_posts".* FROM "blog_posts" ORDER BY "blog_posts"."id" DESC[0m
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 21ms (Views: 0.6ms | ActiveRecord: 0.4ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateCampaigns (20190719130532)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "campaigns" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "start_date" datetime, "budget" varchar, "brief" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190719130532"]]
+  [1m[35m (98.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:07:51 +0530
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"he", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+HTTP Origin header (chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop) didn't match request.base_url (http://localhost:3000)
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (5.1.0) lib/action_controller/metal/request_forgery_protection.rb:195:in `handle_unverified_request'
+actionpack (5.1.0) lib/action_controller/metal/request_forgery_protection.rb:227:in `handle_unverified_request'
+actionpack (5.1.0) lib/action_controller/metal/request_forgery_protection.rb:222:in `verify_authenticity_token'
+activesupport (5.1.0) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.0) lib/active_support/callbacks.rb:197:in `block (2 levels) in halting'
+actionpack (5.1.0) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.1.0) lib/active_support/callbacks.rb:198:in `block in halting'
+activesupport (5.1.0) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.0) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.0) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.0) lib/active_support/callbacks.rb:130:in `run_callbacks'
+actionpack (5.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.0) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.0) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.0) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.0) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.0) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.0) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.0) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.0) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.0) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.0) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.0) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.0) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.0) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.0) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.0) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.0) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.0) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.0) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.0) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.0) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/bittern02/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/bittern02/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/bittern02/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:08:57 +0530
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"he", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.1ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "he"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 13:38:57.847100"], ["updated_at", "2019-07-19 13:38:57.847100"]]
+  [1m[35m (132.6ms)[0m  [1m[36mcommit transaction[0m
+New Campaign he.
+Redirected to http://localhost:3000/blog_posts
+Completed 302 Found in 154ms (ActiveRecord: 135.6ms)
+
+
+Started GET "/blog_posts" for 127.0.0.1 at 2019-07-19 19:08:57 +0530
+Processing by BlogPostsController#index as */*
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "blog_posts"[0m
+  [1m[36mBlogPost Load (0.2ms)[0m  [1m[34mSELECT "blog_posts".* FROM "blog_posts" ORDER BY "blog_posts"."id" DESC[0m
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 46ms (Views: 2.6ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:09:26 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Campaign::Cell::New):
+  
+app/controllers/api/v1/campaigns_controller.rb:8:in `create'
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:09:43 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"aaaaaa", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "aaaaaa"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 13:39:43.428003"], ["updated_at", "2019-07-19 13:39:43.428003"]]
+  [1m[35m (110.8ms)[0m  [1m[36mcommit transaction[0m
+New Campaign aaaaaa.
+Redirected to http://localhost:3000/blog_posts
+Completed 302 Found in 120ms (ActiveRecord: 112.3ms)
+
+
+Started GET "/blog_posts" for 127.0.0.1 at 2019-07-19 19:09:43 +0530
+Processing by BlogPostsController#index as */*
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "blog_posts"[0m
+  [1m[36mBlogPost Load (0.2ms)[0m  [1m[34mSELECT "blog_posts".* FROM "blog_posts" ORDER BY "blog_posts"."id" DESC[0m
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 18ms (Views: 0.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:12:22 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"aaaaaa", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "aaaaaa"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 13:42:22.246528"], ["updated_at", "2019-07-19 13:42:22.246528"]]
+  [1m[35m (169.4ms)[0m  [1m[36mcommit transaction[0m
+New Campaign aaaaaa.
+Completed 500 Internal Server Error in 198ms (ActiveRecord: 171.5ms)
+
+
+  
+SystemStackError (stack level too deep):
+  
+app/controllers/api/v1/campaigns_controller.rb:6:in `block in create'
+app/controllers/api/v1/campaigns_controller.rb:4:in `create'
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:14:21 +0530
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"aaaaaa", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "aaaaaa"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 13:44:21.275378"], ["updated_at", "2019-07-19 13:44:21.275378"]]
+  [1m[35m (121.8ms)[0m  [1m[36mcommit transaction[0m
+New Campaign aaaaaa.
+Completed 500 Internal Server Error in 164ms (ActiveRecord: 123.8ms)
+
+
+  
+SystemStackError (stack level too deep):
+  
+app/controllers/api/v1/campaigns_controller.rb:6:in `block in create'
+app/controllers/api/v1/campaigns_controller.rb:4:in `create'
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:17:12 +0530
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"aaaaaa", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "aaaaaa"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 13:47:12.117140"], ["updated_at", "2019-07-19 13:47:12.117140"]]
+  [1m[35m (135.9ms)[0m  [1m[36mcommit transaction[0m
+New Campaign aaaaaa.
+Completed 200 OK in 163ms (Views: 0.3ms | ActiveRecord: 140.1ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:17:53 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"aaaaaa", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "aaaaaa"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 13:47:53.878354"], ["updated_at", "2019-07-19 13:47:53.878354"]]
+  [1m[35m (119.6ms)[0m  [1m[36mcommit transaction[0m
+New Campaign aaaaaa.
+Completed 500 Internal Server Error in 147ms (ActiveRecord: 121.7ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:18:59 +0530
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"aaaaaa", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "aaaaaa"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 13:48:59.608666"], ["updated_at", "2019-07-19 13:48:59.608666"]]
+  [1m[35m (161.1ms)[0m  [1m[36mcommit transaction[0m
+New Campaign aaaaaa.
+Completed 200 OK in 180ms (Views: 0.2ms | ActiveRecord: 162.5ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:19:43 +0530
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"aaaaaa", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.6ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "aaaaaa"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 13:49:43.652982"], ["updated_at", "2019-07-19 13:49:43.652982"]]
+  [1m[35m (185.0ms)[0m  [1m[36mcommit transaction[0m
+New Campaign aaaaaa.
+Completed 200 OK in 212ms (Views: 0.4ms | ActiveRecord: 188.9ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:22:49 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"aaaaaa", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "aaaaaa"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 13:52:49.759055"], ["updated_at", "2019-07-19 13:52:49.759055"]]
+  [1m[35m (136.2ms)[0m  [1m[36mcommit transaction[0m
+New Campaign aaaaaa.
+Completed 500 Internal Server Error in 184ms (ActiveRecord: 139.1ms)
+
+
+  
+NameError (undefined local variable or method `title' for #<Api::V1::CampaignsController:0x0000000239a8f8>):
+  
+app/controllers/api/v1/campaigns_controller.rb:6:in `block in create'
+app/controllers/api/v1/campaigns_controller.rb:4:in `create'
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:29:21 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"aaaaaa", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "aaaaaa"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 13:59:21.318370"], ["updated_at", "2019-07-19 13:59:21.318370"]]
+  [1m[35m (152.5ms)[0m  [1m[36mcommit transaction[0m
+New Campaign aaaaaa.
+Completed 200 OK in 180ms (Views: 0.6ms | ActiveRecord: 154.6ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:29:29 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"aaaaaa", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "aaaaaa"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 13:59:29.090032"], ["updated_at", "2019-07-19 13:59:29.090032"]]
+  [1m[35m (120.5ms)[0m  [1m[36mcommit transaction[0m
+New Campaign aaaaaa.
+Completed 200 OK in 128ms (Views: 0.5ms | ActiveRecord: 120.9ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:29:36 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"bbbbbbb", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "bbbbbbb"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 13:59:36.645069"], ["updated_at", "2019-07-19 13:59:36.645069"]]
+  [1m[35m (115.7ms)[0m  [1m[36mcommit transaction[0m
+New Campaign bbbbbbb.
+Completed 200 OK in 122ms (Views: 0.5ms | ActiveRecord: 116.1ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:35:17 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"bbbbbbb", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "bbbbbbb"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 14:05:17.404561"], ["updated_at", "2019-07-19 14:05:17.404561"]]
+  [1m[35m (155.2ms)[0m  [1m[36mcommit transaction[0m
+New Campaign bbbbbbb.
+Completed 200 OK in 176ms (Views: 0.6ms | ActiveRecord: 157.3ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:37:09 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 20ms (Views: 1.0ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:37:38 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:37:45 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:38:41 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 31ms (Views: 1.9ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:40:12 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 16ms (Views: 1.2ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:40:34 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 1.2ms)
+
+
+  
+NoMethodError (undefined method `[]' for #<Trailblazer::Rails::Form:0x000000024f54a0>):
+  
+app/controllers/api/v1/campaigns_controller.rb:12:in `create'
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:40:45 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 1.4ms)
+
+
+  
+NoMethodError (undefined method `[]' for #<Trailblazer::Rails::Form:0x00000003ff5700>):
+  
+app/controllers/api/v1/campaigns_controller.rb:12:in `create'
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:40:56 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 1.2ms)
+
+
+  
+NameError (undefined local variable or method `errors' for #<Api::V1::CampaignsController:0x00000003dc0200>):
+  
+app/controllers/api/v1/campaigns_controller.rb:12:in `create'
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:41:16 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 26ms (Views: 0.9ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:41:50 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 1.2ms)
+
+
+  
+NoMethodError (undefined method `[]' for #<Trailblazer::Rails::Form:0x00000002e10968>):
+  
+app/controllers/api/v1/campaigns_controller.rb:12:in `create'
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:41:59 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 1.1ms)
+
+
+  
+NoMethodError (undefined method `[]' for #<Trailblazer::Rails::Form:0x00000003d14a18>):
+  
+app/controllers/api/v1/campaigns_controller.rb:12:in `create'
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:42:37 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 1.2ms)
+
+
+  
+NoMethodError (undefined method `keys' for #<Trailblazer::Rails::Form:0x00000003a81968>):
+  
+app/controllers/api/v1/campaigns_controller.rb:12:in `create'
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:42:58 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 20ms (Views: 1.4ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:44:07 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 17ms (Views: 0.4ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:44:31 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 1.1ms)
+
+
+  
+NoMethodError (undefined method `errors' for #<Reform::Contract::Errors:0x000000040d9248>):
+  
+app/controllers/api/v1/campaigns_controller.rb:12:in `create'
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:44:47 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 34ms (Views: 0.4ms | ActiveRecord: 5.4ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:45:01 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 17ms (Views: 1.1ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:45:26 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 14ms (Views: 0.6ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:45:47 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 20ms (Views: 0.3ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:45:50 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:45:56 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 17ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:46:18 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 18ms (Views: 1.2ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:46:44 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 1.3ms)
+
+
+  
+NoMethodError (undefined method `full_messages' for #<Reform::Contract::Errors:0x00000003cd6448>
+Did you mean?  messages):
+  
+app/controllers/api/v1/campaigns_controller.rb:12:in `create'
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:47:14 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 1.5ms)
+
+
+  
+NoMethodError (undefined method `full_messages' for #<Reform::Contract::Errors:0x00000002e8cb80>
+Did you mean?  messages):
+  
+app/controllers/api/v1/campaigns_controller.rb:12:in `create'
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:47:31 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 1.3ms)
+
+
+  
+NoMethodError (undefined method `message' for #<Reform::Contract::Errors:0x00000003e481a0>
+Did you mean?  messages):
+  
+app/controllers/api/v1/campaigns_controller.rb:12:in `create'
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:47:44 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 31ms (Views: 0.4ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:48:01 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 22ms (Views: 0.4ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:48:27 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"11", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "11"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 14:18:27.208957"], ["updated_at", "2019-07-19 14:18:27.208957"]]
+  [1m[35m (126.3ms)[0m  [1m[36mcommit transaction[0m
+New Campaign 11.
+Completed 200 OK in 134ms (Views: 0.7ms | ActiveRecord: 126.8ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:48:36 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"11", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.9ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "11"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 14:18:36.526938"], ["updated_at", "2019-07-19 14:18:36.526938"]]
+  [1m[35m (187.6ms)[0m  [1m[36mcommit transaction[0m
+New Campaign 11.
+Completed 200 OK in 198ms (Views: 0.6ms | ActiveRecord: 190.6ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:48:39 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"11", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "11"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 14:18:39.060663"], ["updated_at", "2019-07-19 14:18:39.060663"]]
+  [1m[35m (111.0ms)[0m  [1m[36mcommit transaction[0m
+New Campaign 11.
+Completed 200 OK in 123ms (Views: 0.8ms | ActiveRecord: 113.3ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:48:42 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"11", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "11"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 14:18:42.121417"], ["updated_at", "2019-07-19 14:18:42.121417"]]
+  [1m[35m (114.2ms)[0m  [1m[36mcommit transaction[0m
+New Campaign 11.
+Completed 200 OK in 123ms (Views: 0.7ms | ActiveRecord: 115.8ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 19:48:47 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:02:32 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", ""], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 14:32:32.504681"], ["updated_at", "2019-07-19 14:32:32.504681"]]
+  [1m[35m (178.3ms)[0m  [1m[36mcommit transaction[0m
+New Campaign .
+Completed 200 OK in 202ms (Views: 0.7ms | ActiveRecord: 181.4ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:03:43 +0530
+  
+ArgumentError (Unknown key: :presence. Valid keys are: :on, :if, :unless, :prepend. Perhaps you meant to call `validates` instead of `validate`?):
+  
+app/models/campaign.rb:2:in `<class:Campaign>'
+app/models/campaign.rb:1:in `<top (required)>'
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:04:04 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 23ms (Views: 0.3ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:04:24 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"11", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "11"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 14:34:24.349522"], ["updated_at", "2019-07-19 14:34:24.349522"]]
+  [1m[35m (126.8ms)[0m  [1m[36mcommit transaction[0m
+New Campaign 11.
+Completed 200 OK in 135ms (Views: 0.7ms | ActiveRecord: 128.7ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:04:36 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"22", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "22"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 14:34:36.462460"], ["updated_at", "2019-07-19 14:34:36.462460"]]
+  [1m[35m (122.7ms)[0m  [1m[36mcommit transaction[0m
+New Campaign 22.
+Completed 200 OK in 131ms (Views: 0.6ms | ActiveRecord: 123.2ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:04:50 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:05:17 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 18ms (Views: 0.7ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:05:38 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 9ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:05:40 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 12ms (Views: 7.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:05:44 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:06:01 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:06:11 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"111", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "111"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 14:36:11.929175"], ["updated_at", "2019-07-19 14:36:11.929175"]]
+  [1m[35m (105.4ms)[0m  [1m[36mcommit transaction[0m
+New Campaign 111.
+Completed 200 OK in 116ms (Views: 0.5ms | ActiveRecord: 106.5ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:06:26 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:14:42 +0530
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/concepts/campaign/contract/create.rb:22:in `<class:Create>'
+app/concepts/campaign/contract/create.rb:6:in `<module:Contract>'
+app/concepts/campaign/contract/create.rb:5:in `<top (required)>'
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:16:12 +0530
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "hello"], ["start_date", "2019-07-12 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 14:46:12.500339"], ["updated_at", "2019-07-19 14:46:12.500339"]]
+  [1m[35m (190.0ms)[0m  [1m[36mcommit transaction[0m
+New Campaign hello.
+Completed 200 OK in 210ms (Views: 0.6ms | ActiveRecord: 192.9ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:18:31 +0530
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/concepts/campaign/contract/create.rb:22:in `<class:Create>'
+app/concepts/campaign/contract/create.rb:6:in `<module:Contract>'
+app/concepts/campaign/contract/create.rb:5:in `<top (required)>'
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:19:03 +0530
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/concepts/campaign/contract/create.rb:22:in `<class:Create>'
+app/concepts/campaign/contract/create.rb:6:in `<module:Contract>'
+app/concepts/campaign/contract/create.rb:5:in `<top (required)>'
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:20:53 +0530
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 1.0ms)
+
+
+  
+ArgumentError (comparison of String with Date failed):
+  
+app/concepts/campaign/contract/create.rb:23:in `<'
+app/concepts/campaign/contract/create.rb:23:in `block in <class:Create>'
+app/controllers/api/v1/campaigns_controller.rb:4:in `create'
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:21:44 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 1.3ms)
+
+
+  
+NoMethodError (undefined method `start_date_ok?' for #<Campaign::Contract::Create:0x00000004643350>
+Did you mean?  start_date
+               start_date=):
+  
+app/controllers/api/v1/campaigns_controller.rb:4:in `create'
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:22:24 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 22ms (Views: 0.4ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:23:01 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/19", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "hello"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 14:53:01.281721"], ["updated_at", "2019-07-19 14:53:01.281721"]]
+  [1m[35m (122.8ms)[0m  [1m[36mcommit transaction[0m
+New Campaign hello.
+Completed 200 OK in 139ms (Views: 0.5ms | ActiveRecord: 126.8ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:24:26 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/19", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.1ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "hello"], ["start_date", "2019-07-19 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 14:54:26.567157"], ["updated_at", "2019-07-19 14:54:26.567157"]]
+  [1m[35m (169.2ms)[0m  [1m[36mcommit transaction[0m
+New Campaign hello.
+Completed 200 OK in 190ms (Views: 0.5ms | ActiveRecord: 172.6ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:24:35 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/19", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "hello"], ["start_date", "2019-07-19 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 14:54:35.915249"], ["updated_at", "2019-07-19 14:54:35.915249"]]
+  [1m[35m (130.1ms)[0m  [1m[36mcommit transaction[0m
+New Campaign hello.
+Completed 200 OK in 137ms (Views: 0.6ms | ActiveRecord: 131.3ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:24:40 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/19", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.5ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "hello"], ["start_date", "2019-07-19 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 14:54:40.736791"], ["updated_at", "2019-07-19 14:54:40.736791"]]
+  [1m[35m (113.1ms)[0m  [1m[36mcommit transaction[0m
+New Campaign hello.
+Completed 200 OK in 127ms (Views: 4.0ms | ActiveRecord: 116.7ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:24:57 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/19", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.8ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "hello"], ["start_date", "2019-07-19 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 14:54:57.953855"], ["updated_at", "2019-07-19 14:54:57.953855"]]
+  [1m[35m (129.0ms)[0m  [1m[36mcommit transaction[0m
+New Campaign hello.
+Completed 200 OK in 139ms (Views: 0.6ms | ActiveRecord: 131.9ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:25:28 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/18", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:25:45 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/18", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:26:09 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/18", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:26:28 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/20", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "hello"], ["start_date", "2019-07-20 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 14:56:28.621478"], ["updated_at", "2019-07-19 14:56:28.621478"]]
+  [1m[35m (171.2ms)[0m  [1m[36mcommit transaction[0m
+New Campaign hello.
+Completed 200 OK in 182ms (Views: 0.5ms | ActiveRecord: 174.6ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+Started GET "/api/v1/campaigns/1" for 127.0.0.1 at 2019-07-19 20:33:39 +0530
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CampaignsController#show as */*
+  Parameters: {"id"=>"1", "campaign"=>{}}
+  [1m[36mCampaign Load (0.3ms)[0m  [1m[34mSELECT  "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 27ms (Views: 0.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/v1/campaigns/10" for 127.0.0.1 at 2019-07-19 20:33:51 +0530
+Processing by Api::V1::CampaignsController#show as */*
+  Parameters: {"id"=>"10", "campaign"=>{}}
+  [1m[36mCampaign Load (0.2ms)[0m  [1m[34mSELECT  "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/v1/campaigns/20" for 127.0.0.1 at 2019-07-19 20:33:58 +0530
+Processing by Api::V1::CampaignsController#show as */*
+  Parameters: {"id"=>"20", "campaign"=>{}}
+  [1m[36mCampaign Load (0.2ms)[0m  [1m[34mSELECT  "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/v1/campaigns/50" for 127.0.0.1 at 2019-07-19 20:34:13 +0530
+Processing by Api::V1::CampaignsController#show as */*
+  Parameters: {"id"=>"50", "campaign"=>{}}
+  [1m[36mCampaign Load (0.1ms)[0m  [1m[34mSELECT  "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT ?[0m  [["id", 50], ["LIMIT", 1]]
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/v1/campaigns/50" for 127.0.0.1 at 2019-07-19 20:36:35 +0530
+Processing by Api::V1::CampaignsController#show as */*
+  Parameters: {"id"=>"50", "campaign"=>{}}
+  [1m[36mCampaign Load (0.3ms)[0m  [1m[34mSELECT  "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT ?[0m  [["id", 50], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/api/v1/campaigns/50" for 127.0.0.1 at 2019-07-19 20:36:49 +0530
+Processing by Api::V1::CampaignsController#show as */*
+  Parameters: {"id"=>"50", "campaign"=>{}}
+  [1m[36mCampaign Load (0.1ms)[0m  [1m[34mSELECT  "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT ?[0m  [["id", 50], ["LIMIT", 1]]
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/v1/campaigns/20" for 127.0.0.1 at 2019-07-19 20:36:57 +0530
+Processing by Api::V1::CampaignsController#show as */*
+  Parameters: {"id"=>"20", "campaign"=>{}}
+  [1m[36mCampaign Load (0.1ms)[0m  [1m[34mSELECT  "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+Completed 200 OK in 14ms (Views: 0.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/campaigns/1" for 127.0.0.1 at 2019-07-19 20:37:06 +0530
+Processing by Api::V1::CampaignsController#show as */*
+  Parameters: {"id"=>"1", "campaign"=>{}}
+  [1m[36mCampaign Load (0.2ms)[0m  [1m[34mSELECT  "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:38:54 +0530
+Processing by Api::V1::CampaignsController#index as */*
+  Parameters: {"campaign"=>{}}
+  [1m[36mCampaign Load (1.1ms)[0m  [1m[34mSELECT "campaigns".* FROM "campaigns" ORDER BY "campaigns"."id" DESC[0m
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:39:21 +0530
+Processing by Api::V1::CampaignsController#index as */*
+  Parameters: {"campaign"=>{}}
+  [1m[36mCampaign Load (0.4ms)[0m  [1m[34mSELECT "campaigns".* FROM "campaigns" ORDER BY "campaigns"."id" DESC[0m
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 1.6ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/guides-operation-03/config/initializers/new_framework_defaults.rb:21)
+Started PUT "/api/v1/campaigns/2" for 127.0.0.1 at 2019-07-19 20:43:39 +0530
+Processing by Api::V1::CampaignsController#update as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/20", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}, "id"=>"2"}
+  [1m[36mCampaign Load (0.2ms)[0m  [1m[34mSELECT  "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[33mUPDATE "campaigns" SET "title" = ?, "start_date" = ?, "updated_at" = ? WHERE "campaigns"."id" = ?[0m  [["title", "hello"], ["start_date", "2019-07-20 00:00:00"], ["updated_at", "2019-07-19 15:13:39.942613"], ["id", 2]]
+  [1m[35m (114.7ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 140ms (Views: 0.7ms | ActiveRecord: 118.2ms)
+
+
+Started PUT "/api/v1/campaigns/2" for 127.0.0.1 at 2019-07-19 20:44:01 +0530
+Processing by Api::V1::CampaignsController#update as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/20", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}, "id"=>"2"}
+  [1m[36mCampaign Load (0.2ms)[0m  [1m[34mSELECT  "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/api/v1/campaigns/2" for 127.0.0.1 at 2019-07-19 20:44:08 +0530
+Processing by Api::V1::CampaignsController#update as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/22", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}, "id"=>"2"}
+  [1m[36mCampaign Load (0.2ms)[0m  [1m[34mSELECT  "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "campaigns" SET "start_date" = ?, "updated_at" = ? WHERE "campaigns"."id" = ?[0m  [["start_date", "2019-07-22 00:00:00"], ["updated_at", "2019-07-19 15:14:08.859794"], ["id", 2]]
+  [1m[35m (206.1ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 216ms (Views: 0.6ms | ActiveRecord: 207.2ms)
+
+
+Started PUT "/api/v1/campaigns/2" for 127.0.0.1 at 2019-07-19 20:44:37 +0530
+Processing by Api::V1::CampaignsController#update as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}, "id"=>"2"}
+  [1m[36mCampaign Load (0.2ms)[0m  [1m[34mSELECT  "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/api/v1/campaigns/2" for 127.0.0.1 at 2019-07-19 20:47:39 +0530
+Processing by Api::V1::CampaignsController#destroy as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}, "id"=>"2"}
+  [1m[36mCampaign Load (0.3ms)[0m  [1m[34mSELECT  "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.5ms)[0m  [1m[31mDELETE FROM "campaigns" WHERE "campaigns"."id" = ?[0m  [["id", 2]]
+  [1m[35m (152.0ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 174ms (Views: 0.3ms | ActiveRecord: 156.0ms)
+
+
+Started DELETE "/api/v1/campaigns/22" for 127.0.0.1 at 2019-07-19 20:47:49 +0530
+Processing by Api::V1::CampaignsController#destroy as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}, "id"=>"22"}
+  [1m[36mCampaign Load (0.2ms)[0m  [1m[34mSELECT  "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "campaigns" WHERE "campaigns"."id" = ?[0m  [["id", 22]]
+  [1m[35m (195.9ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 202ms (Views: 0.2ms | ActiveRecord: 197.4ms)
+
+
+Started DELETE "/api/v1/campaigns/55" for 127.0.0.1 at 2019-07-19 20:47:55 +0530
+Processing by Api::V1::CampaignsController#destroy as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}, "id"=>"55"}
+  [1m[36mCampaign Load (0.1ms)[0m  [1m[34mSELECT  "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/Campaign/config/initializers/new_framework_defaults.rb:21)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/bittern02/Real_Time_Projects/Campaign/config/initializers/new_framework_defaults.rb:21)
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:55:20 +0530
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/12", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+Completed 200 OK in 15ms (Views: 1.1ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 20:55:30 +0530
+Processing by Api::V1::CampaignsController#create as */*
+  Parameters: {"campaign"=>{"title"=>"hello", "start_date"=>"2019/07/23", "budget"=>"22.22", "brief"=>"hello hiiii byeeee"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "hello"], ["start_date", "2019-07-23 00:00:00"], ["budget", "22.22"], ["brief", "hello hiiii byeeee"], ["created_at", "2019-07-19 15:25:30.427421"], ["updated_at", "2019-07-19 15:25:30.427421"]]
+  [1m[35m (142.4ms)[0m  [1m[36mcommit transaction[0m
+New Campaign hello.
+Completed 200 OK in 155ms (Views: 0.7ms | ActiveRecord: 143.5ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/maurya/Data/projects/myapp/config/initializers/new_framework_defaults.rb:21)
+Started GET "/" for 127.0.0.1 at 2019-07-19 23:26:56 +0530
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "myapp_development" does not exist
+):
+  
+activerecord (5.1.0) lib/active_record/connection_adapters/postgresql_adapter.rb:705:in `rescue in connect'
+activerecord (5.1.0) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `connect'
+activerecord (5.1.0) lib/active_record/connection_adapters/postgresql_adapter.rb:220:in `initialize'
+activerecord (5.1.0) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.0) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.0) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.0) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.0) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.0) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.0) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.0) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/maurya/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+/home/maurya/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+/home/maurya/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2019-07-19 23:26:57 +0530
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "myapp_development" does not exist
+):
+  
+activerecord (5.1.0) lib/active_record/connection_adapters/postgresql_adapter.rb:705:in `rescue in connect'
+activerecord (5.1.0) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `connect'
+activerecord (5.1.0) lib/active_record/connection_adapters/postgresql_adapter.rb:220:in `initialize'
+activerecord (5.1.0) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.0) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.0) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.0) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.0) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.0) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.0) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.0) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/maurya/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+/home/maurya/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+/home/maurya/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/maurya/Data/projects/myapp/config/initializers/new_framework_defaults.rb:21)
+  [1m[35m (150.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (139.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7864839756650184315);[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateCampaigns (20190719130532)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (97.2ms)[0m  [1m[35mCREATE TABLE "campaigns" ("id" bigserial primary key, "title" character varying, "start_date" timestamp, "budget" character varying, "brief" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190719130532"]]
+  [1m[35m (15.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-07-19 17:57:13.906387"], ["updated_at", "2019-07-19 17:57:13.906387"]]
+  [1m[35m (11.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(7864839756650184315)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/maurya/Data/projects/myapp/config/initializers/new_framework_defaults.rb:21)
+Started POST "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 23:28:01 +0530
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CampaignsController#create as HTML
+  Parameters: {"campaign"=>{"title"=>"my title", "start_date"=>"2019/07/23", "budget"=>22.22, "brief"=>"my description"}}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "campaigns" ("title", "start_date", "budget", "brief", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "my title"], ["start_date", "2019-07-23 00:00:00"], ["budget", "22.22"], ["brief", "my description"], ["created_at", "2019-07-19 17:58:01.853643"], ["updated_at", "2019-07-19 17:58:01.853643"]]
+  [1m[35m (23.7ms)[0m  [1m[35mCOMMIT[0m
+New Campaign my title.
+Completed 200 OK in 67ms (Views: 2.0ms | ActiveRecord: 30.7ms)
+
+
+Started GET "/api/v1/campaigns" for 127.0.0.1 at 2019-07-19 23:28:10 +0530
+Processing by Api::V1::CampaignsController#index as HTML
+  Parameters: {"campaign"=>{}}
+  [1m[36mCampaign Load (1.0ms)[0m  [1m[34mSELECT "campaigns".* FROM "campaigns" ORDER BY "campaigns"."id" DESC[0m
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 1.0ms)
+
+
