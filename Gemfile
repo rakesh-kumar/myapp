@@ -18,7 +18,7 @@ group :test do
   gem "rspec-rails"
   gem "capybara"
 end
-gem "rake", "~> 10.0"
+gem "rake", "~> 12.3"
 gem "bundler"
 gem "listen"
 
